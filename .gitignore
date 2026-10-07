@@ -1,0 +1,56 @@
+# ==============================
+# SECRETS / CREDENTIALS
+# ==============================
+access_token.txt
+.env
+*.env
+
+# ==============================
+# PYTHON
+# ==============================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ==============================
+# LARGE SATELLITE DATA
+# ==============================
+data/raw/
+data/downloads/
+data/products/
+data/sentinel/
+*.zip
+*.SAFE/
+
+# ==============================
+# LARGE IMAGE FILES
+# ==============================
+*.tif
+*.tiff
+*.jp2
+*.png
+*.jpg
+*.jpeg
+
+# ==============================
+# GENERATED DATA / RESULTS
+# ==============================
+data/catalogue/
+data/search_results/
+results/
+
+# ==============================
+# MODEL FILES
+# ==============================
+*.pt
+*.pth
+*.h5
+*.keras
+*.onnx
+
+# ==============================
+# VS CODE
+# ==============================
+.vscode/
